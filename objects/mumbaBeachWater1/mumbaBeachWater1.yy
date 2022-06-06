@@ -1,0 +1,43 @@
+{
+  "spriteId": {
+    "name": "sprMumbaBeachWater1",
+    "path": "sprites/sprMumbaBeachWater1/sprMumbaBeachWater1.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "mumbaBackground",
+    "path": "objects/mumbaBackground/mumbaBackground.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"horizontalSpeed","path":"objects/mumbaWorldObject/mumbaWorldObject.yy",},"objectId":{"name":"mumbaWorldObject","path":"objects/mumbaWorldObject/mumbaWorldObject.yy",},"value":".1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"cameraXMultiplier","path":"objects/mumbaBackground/mumbaBackground.yy",},"objectId":{"name":"mumbaBackground","path":"objects/mumbaBackground/mumbaBackground.yy",},"value":"0.2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"loops","path":"objects/mumbaBackground/mumbaBackground.yy",},"objectId":{"name":"mumbaBackground","path":"objects/mumbaBackground/mumbaBackground.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "background pieces",
+    "path": "folders/Objects/mumba/in-game stuff/background pieces.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "mumbaBeachWater1",
+  "tags": [],
+  "resourceType": "GMObject",
+}

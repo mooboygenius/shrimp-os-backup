@@ -1,0 +1,43 @@
+{
+  "spriteId": {
+    "name": "sprFireShrimpIcon",
+    "path": "sprites/sprFireShrimpIcon/sprFireShrimpIcon.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "desktopFile",
+    "path": "objects/desktopFile/desktopFile.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"fileName","path":"objects/desktopFile/desktopFile.yy",},"objectId":{"name":"desktopFile","path":"objects/desktopFile/desktopFile.yy",},"value":"Fireshrimp","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"saveInfo","path":"objects/desktopFile/desktopFile.yy",},"objectId":{"name":"desktopFile","path":"objects/desktopFile/desktopFile.yy",},"value":"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"windowToOpen","path":"objects/desktopFile/desktopFile.yy",},"objectId":{"name":"desktopFile","path":"objects/desktopFile/desktopFile.yy",},"value":"fireShrimpHome","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "fireshrimp browser",
+    "path": "folders/Objects/fireshrimp browser.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "fireShrimpIcon",
+  "tags": [],
+  "resourceType": "GMObject",
+}
