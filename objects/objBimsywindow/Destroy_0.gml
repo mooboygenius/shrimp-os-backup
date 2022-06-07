@@ -11,3 +11,6 @@ if(firesound==0){
 }else{
 	audio_stop_sound(firesound);
 }
+
+
+audio_resume_sound(currentMusic);

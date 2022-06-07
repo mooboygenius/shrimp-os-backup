@@ -67,11 +67,14 @@ ds_map_add(realWebsites, "www.shrimposer.shrimp", createWebsite("Shrimposer", sh
 ds_map_add(realWebsites, "www.shrimpify.shrimp", createWebsite("Shrimpify", shrimpifyWebsite, "Your music, when you want it.", "music audio sound fun artist track song album entertain fun"));
 ds_map_add(realWebsites, "www.shritter.shrimp", createWebsite("Shritter", shritterPage, "Tell everyone what's up!", "social media fun entertain write blog write content stuff"));
 ds_map_add(realWebsites, "www.shrimpcord.shrimp", createWebsite("Shrimpcord", shrimpcordDownloadPage, "Chat with REAL shrimps", "social media fun entertain chat content cord"));
-ds_map_add(realWebsites, "www.krillit.shrimp", createWebsite("Krillit", krillitFrontPage, "The worst page on the Shrimpernet", "social media fun entertain chat content stuff"));
+ds_map_add(realWebsites, "www.krillit.shrimp", createWebsite("Krillit", krillitFrontPage, "The worst page on the Shrimpernet", "social media fun entertain chat content stuff images pictures"));
 ds_map_add(realWebsites, "www.4crustachan.shrimp", createWebsite("584953759834", crustachanWindow, "", ""));
 ds_map_add(realWebsites, "www.prawncave.shrimp", createWebsite("98797896787", shrimpcoinMinerWebsite, "", ""));
 ds_map_add(realWebsites, "www.helpgaming.shrimp", createWebsite("Help Gaming", helpGamingWebsite, "I just want to help people", "videos entertainment games gaming guide help"));
 ds_map_add(realWebsites, "www.bimsymart.shrimp", createWebsite("Bimsymart Shrimp OS Edition!!", bimsymartWindow, "PLAY BIMSYMART SHRIMP OS EDITION NOW!!!", "fun games gaming entertainment video game play bimsy warioware funny cute"));
+ds_map_add(realWebsites, "www.garyspage.shrimp", createWebsite("GARY'S PAGE", georgesWebsite, "DEDICATED TO THE LIVING SHITSTAIN MR. ZIEGLER", "blogs stuff weed fire blaze teacher ziegler gary george pages"));
+ds_map_add(realWebsites, "www.farmworld.shrimp", createWebsite("Farmworld: Online Farm Image Resource", farmworldWebsite, "Best internet source for farm and farm-related images", "images farms barns grass earth pictures art resources entertainment animals cows chickens chicks tractors farming funny animal"));
+ds_map_add(realWebsites, "www.strugglingturtle.shrimp", createWebsite("struggling_turtle", strugglingTurtlePage, "update this description later", "turtle struggling animal advice guide tips tricks help blog entertainment"));
 
 globalvar masterVolume;
 masterVolume=loadSetting("masterVolume", 1);

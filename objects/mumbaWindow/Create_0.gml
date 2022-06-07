@@ -7,7 +7,7 @@ event_inherited();
 setWindowSize(self, 0, 0, 200, 160);
 centerWindow(self);
 
-audio_group_stop_all(bgm);
+audio_pause_sound(currentMusic);
 
 ds_list_add(children, instance_create_depth(0, 0, 0, DEV_MODE ? mumbaDevTool : mumbaMilkbarLadsIntro));
 

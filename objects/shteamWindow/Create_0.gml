@@ -36,3 +36,5 @@ addShteamGame("EARTHDIEDSCRE....", sprEarthDiedScreamingThumbnail, "");
 
 scrollY=0;
 scrollYLerp=0;
+
+unlockMedal("THE GAMER");

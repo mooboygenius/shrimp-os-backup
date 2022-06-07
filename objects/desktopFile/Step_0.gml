@@ -64,6 +64,7 @@ switch state {
 			holdTimer=-20;
 			squish=2;
 			grace=4;
+			checkAllDesktopPositions();
 		}
 	break;
 	

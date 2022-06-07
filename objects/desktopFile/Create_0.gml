@@ -75,3 +75,37 @@ uniqueRightClickMenuOptions=[
 childWindow=noone;
 
 saveDesktopFiles();
+
+var a=[shrimpcordIcon, shrimpifyLogo, shrimposerIcon, shteam, mumbaIcon, fireShrimpIcon, paintDocument, shrimpcoinIcon, jacksGameIcon],
+missing=false;
+for (var i=0; i<array_length(a); i++) {
+	if !instance_exists(a[i]) {
+		missing=true;
+		break;
+	}
+}
+if !missing {
+	unlockMedal("Compleshrimpist");
+}
+
+checkAllDesktopPositions=function() {
+	/// @function checkAllDesktopPositions()
+	var missing=false;
+	for (var yy=offsetY; yy<GAME_HEIGHT-shiftY; yy+=shiftY) {
+		for (var xx=offsetX; xx<GAME_WIDTH; xx+=shiftX) {
+			if !instance_position(xx, yy, desktopFile) {
+				missing=true;
+				break;
+			}
+		}
+		if missing {
+			show_debug_message(concat("missing file @ (", xx, ", ", yy, ")"));
+			break;
+		}
+	}
+	if !missing {
+		unlockMedal("Hoarder");
+	}
+}
+
+checkAllDesktopPositions();

@@ -105,3 +105,5 @@ friendsListScroll=0;
 friendsListScrollLerp=0;
 
 coolColor=$996F68;
+
+unlockMedal("Well-groomed");

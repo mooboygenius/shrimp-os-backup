@@ -8,7 +8,7 @@ author="Author";
 description=""
 myAudio=choose(bgmShrimpOS, bgmShrimpBattle1, bgmShrimpBattle2);
 
-audio_group_stop_all(bgm);
+audio_pause_sound(currentMusic);
 
 trackBar=instance_create_depth(-100, -100, depth-5, shrimpgroundsTrackBar);
 pauseButton=instance_create_depth(-100, -100, depth-10, shrimpgroundsPauseUnpauseButton);

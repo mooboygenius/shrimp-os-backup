@@ -39,3 +39,5 @@ ds_list_add(children, coolRectangle, pauseButton, nextButton, previousButton, tr
 
 trackScroll=0;
 trackScrollLerp=0;
+
+unlockMedal("Funny Green Circle");

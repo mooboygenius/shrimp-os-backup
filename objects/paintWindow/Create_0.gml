@@ -183,3 +183,16 @@ loadFileData=function(str) {
 	
 	surface_reset_target();
 }
+
+if !loadData("openedPaint", false) || chance(.02) {
+	with createShrimpy("You can create new Shrimp Paint files by right clicking the desktop and selecting \"Make new thing\" followed by \"Pretty picture.\"") {
+		destroyScript=function() {
+			timer++;
+			if timer>600 state=1;
+		}
+	}
+	updateData("openedPaint", true);
+	saveGame();
+}
+
+unlockMedal("The Artist");

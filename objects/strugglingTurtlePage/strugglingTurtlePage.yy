@@ -1,0 +1,42 @@
+{
+  "spriteId": {
+    "name": "sprFireShrimpWindow",
+    "path": "sprites/sprFireShrimpWindow/sprFireShrimpWindow.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "fireShrimp",
+    "path": "objects/fireShrimp/fireShrimp.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"name","path":"objects/window/window.yy",},"objectId":{"name":"window","path":"objects/window/window.yy",},"value":"struggling_turtle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"defaultURL","path":"objects/fireShrimp/fireShrimp.yy",},"objectId":{"name":"fireShrimp","path":"objects/fireShrimp/fireShrimp.yy",},"value":"www.strugglingturtle.shrimp","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "struggling turtle",
+    "path": "folders/Objects/fireshrimp browser/struggling turtle.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "strugglingTurtlePage",
+  "tags": [],
+  "resourceType": "GMObject",
+}

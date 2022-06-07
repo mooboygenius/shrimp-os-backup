@@ -13,4 +13,5 @@ with scrollMarker {
 	leftLimit=other.xstart-other.sprite_xoffset+sprite_xoffset;
 	rightLimit=other.xstart+other.sprite_xoffset-sprite_xoffset;
 	ystart=other.ystart;
+	depth=other.depth-10;
 }

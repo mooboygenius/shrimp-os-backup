@@ -28,7 +28,18 @@ with searchButton {
 		}
 		
 		with inst {
-			searchTerm=t;
+			generateSearchResults(t);
 		}
 	}
+}
+
+if !loadData("visitedShrimple", false) || chance(.1) {
+	with createShrimpy("Shrimple is a powerful tool for finding new shrimpsites. Type in a short word or phrase and see if anything comes up!") {
+		destroyScript=function() {
+			timer++;
+			if timer>600 state=1;
+		}
+	}
+	updateData("visitedShrimple", true);
+	saveGame();
 }

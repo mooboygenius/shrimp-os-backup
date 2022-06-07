@@ -26,3 +26,14 @@ extraText=choose(
 "stop wasting your time",
 "do something better"
 );
+
+if !loadData("visitedKrillit", false) || chance(.1) {
+	with createShrimpy("People share lots of valuable information on Krillit! Keep a lookout for shrimpsites or other interesting stuff to look up later!") {
+		destroyScript=function() {
+			timer++;
+			if timer>600 state=1;
+		}
+	}
+	updateData("visitedKrillit", true);
+	saveGame();
+}

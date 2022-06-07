@@ -131,3 +131,16 @@ saveSong=function() {
 	
 	saveDesktopFiles();
 }
+
+if !loadData("openedShrimposer", false) || chance(.02) {
+	with createShrimpy("You can create new Shrimposer files by right clicking the desktop and selecting \"Make new thing\" followed by \"Song.\"") {
+		destroyScript=function() {
+			timer++;
+			if timer>600 state=1;
+		}
+	}
+	updateData("openedShrimposer", true);
+	saveGame();
+}
+
+unlockMedal("Shrimp Sounds");

@@ -10,6 +10,14 @@ if playing {
 }
 
 xstart=startX+scrollX;
+
+var n=0;
+with instrument {
+	if playingNow n++;
+}
+if n>=6 {
+	unlockMedal("Cacaphony");
+}
 //show_debug_message(concat("startx: ", startX, "  scrollx: ", scrollX, "  realx: ", xstart));
 
 var over=true;

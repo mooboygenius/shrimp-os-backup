@@ -32,8 +32,8 @@
     {"propertyId":{"name":"windowToOpen","path":"objects/desktopFile/desktopFile.yy",},"objectId":{"name":"desktopFile","path":"objects/desktopFile/desktopFile.yy",},"value":"shrimpcordLoader","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "desktop files",
-    "path": "folders/Objects/desktop files.yy",
+    "name": "shrimpcord",
+    "path": "folders/Objects/shrimpcord.yy",
   },
   "resourceVersion": "1.0",
   "name": "shrimpcordIcon",

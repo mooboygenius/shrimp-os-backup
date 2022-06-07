@@ -12,8 +12,14 @@ if input(vk_shift) {
 var l=.8;
 xstart=lerp(xstart, lerpX, l);
 ystart=lerp(ystart, lerpY, l);
-xstart=max(xstart, sprite_xoffset);
-ystart=max(ystart, sprite_yoffset);
+var right=GAME_WIDTH-sprite_xoffset,
+bottom=GAME_HEIGHT-sprite_yoffset;
+with parentWindow {
+	right=portWidth-sprite_xoffset;
+	bottom=portHeight-sprite_yoffset;
+}
+xstart=clamp(xstart, sprite_xoffset, right);
+ystart=clamp(ystart, sprite_yoffset, bottom);
 if point_in_rectangle(xstart, ystart, leftBorder, topBorder, rightBorder, bottomBorder) {
 	switch md {
 		case noteMode.normal:

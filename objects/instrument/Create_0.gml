@@ -2,6 +2,8 @@ if live_call() return live_result;
 
 event_inherited();
 
+playingNow=false;
+
 var nm=name;
 
 var flat=false,

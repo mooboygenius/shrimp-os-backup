@@ -85,6 +85,7 @@ if timer<0 {
 		for (var z=0; z<array_length(swears); z++) {
 			if inStringHas(swears[z]) {
 				show_debug_message("swear found");
+				unlockMedal("Professional Asshole");
 				offended=true;
 				break;
 			}

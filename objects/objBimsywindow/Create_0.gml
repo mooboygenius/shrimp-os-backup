@@ -1,6 +1,6 @@
 if live_call() return live_result;
 
-audio_group_stop_all(bgm);
+audio_pause_sound(currentMusic);
 
 event_inherited();
 

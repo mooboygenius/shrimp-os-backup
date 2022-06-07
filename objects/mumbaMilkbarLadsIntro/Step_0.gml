@@ -16,7 +16,7 @@ var doThing=function() {
 
 switch state {
 	case 0:
-		audio_group_stop_all(bgm);
+		audio_pause_sound(currentMusic);
 		timer++;
 		if timer>30 {
 			timer=0;

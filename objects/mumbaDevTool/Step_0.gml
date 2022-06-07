@@ -2,7 +2,7 @@ if live_call() return live_result;
 
 event_inherited();
 
-audio_group_stop_all(bgm);
+audio_pause_sound(currentMusic);
 
 xstart=0;
 ystart=0;
