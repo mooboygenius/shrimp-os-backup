@@ -75,6 +75,7 @@ ds_map_add(realWebsites, "www.bimsymart.shrimp", createWebsite("Bimsymart Shrimp
 ds_map_add(realWebsites, "www.garyspage.shrimp", createWebsite("GARY'S PAGE", georgesWebsite, "DEDICATED TO THE LIVING SHITSTAIN MR. ZIEGLER", "blogs stuff weed fire blaze teacher ziegler gary george pages"));
 ds_map_add(realWebsites, "www.farmworld.shrimp", createWebsite("Farmworld: Online Farm Image Resource", farmworldWebsite, "Best internet source for farm and farm-related images", "images farms barns grass earth pictures art resources entertainment animals cows chickens chicks tractors farming funny animal"));
 ds_map_add(realWebsites, "www.strugglingturtle.shrimp", createWebsite("struggling_turtle", strugglingTurtlePage, "update this description later", "turtle struggling animal advice guide tips tricks help blog entertainment"));
+zizousites();
 
 globalvar masterVolume;
 masterVolume=loadSetting("masterVolume", 1);
