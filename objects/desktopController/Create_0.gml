@@ -7,3 +7,4 @@ loadDesktopFiles();
 metShrimpy=loadData("metShrimpy", false);
 greetedByShrimpy=false;
 shownScrollSuggestion=false;
+unlockMedal("Oh No");
